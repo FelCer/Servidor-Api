@@ -1,0 +1,22 @@
+[
+    {
+        "zona":"Infraestructura",
+        "descripcion_zona":"Juegos infantiles y gimnasios al aire libre",
+        "id":"1"
+    },
+    {
+        "zona":"Zonas duras y canchas deportivas",
+        "descripcion_zona":"Pavimentos relativos al parque , andenes, escaleras, canchas, pistas especiales (Patinaje, atletismo, ciclismo, bicicrós, grama sintética entre otras)",
+        "id":"2"
+    },
+    {
+        "zona":"Mobiliario urbano y señalización",
+        "descripcion_zona":"Canecas, mallas, módulos de servicio, señalización (vallas de ubicación, orientación e información general). Mobiliario en concreto. Mesas de pingpong y ajedrez",
+        "id":"3"
+    },
+    {
+        "zona":"Manejo ambiental",
+        "descripcion_zona":"Grama (césped), arboles, cuerpos de agua  (lagos, piscinas, fuentes y estanques)",
+        "id":"4"
+    }
+]

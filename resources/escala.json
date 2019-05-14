@@ -1,0 +1,22 @@
+[
+    {
+        "valor":"1",
+        "descripcion_valor":"La zona no es funcional, merma la calidad de vida de los habitantes y puede representar peligro"
+    },
+    {
+        "valor":"2",
+        "descripcion_valor":"Hay múltiples elementos no funcionales, lo cual representa grandes"
+    },
+    {
+        "valor":"3",
+        "descripcion_valor":"Hay disminución en la calidad pero son funcionales, son aceptables para uso recreativo, aunque        requiere acciones de adecuación y mantenimiento en diferentes niveles."
+    },
+    {
+        "valor":"4",
+        "descripcion_valor":"Desgaste por uso que no afecta funcionalidad ni calidad"
+    },
+    {
+        "valor":"5",
+        "descripcion_valor":"Perfecto estado, las condiciones óptima para uso recreativo"
+    }
+]

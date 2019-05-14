@@ -1,0 +1,15 @@
+Paso para instalas el servidor con node js.
+
+1.Instalamos express.
+ comando:
+	
+2.Instalamos la dependencia de @babel/core (La cual se utiliza para convertir codigo de Emac2015+ 
+	en version compatibles con versiones anteriores de javascript en los navegadores o 
+	entornos actuales y anteriores)
+ comando:
+	npm install --save-dev @babel/core @babel/cli
+
+3.Instalamos @babel/preset-env (Ajuste inteligente que permite utilizar la ultima version de JS sin 
+	necesidad de microgestionar que tansformaciones de sintaxis)
+ comando:
+	npm install @babel/preset-env --save-dev
