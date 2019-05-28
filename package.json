@@ -13,6 +13,7 @@
   "author": "Luis Felipe Cerero Garcia",
   "license": "ISC",
   "dependencies": {
+    "body-parse": "^0.1.0",
     "express": "^4.16.4",
     "mssql": "^5.1.0"
   },

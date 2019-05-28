@@ -4,37 +4,27 @@ require("./routes/api") (app);
 require("./routes/views")(app);
 var port = process.env.PORT || 3000;
 app.get('/',(req,res)=> res.send('lo logre!!!'));
-app.listen(port,()=>console.log('corriendo'));
 
+//variable de npm de mssql
+var mssql=require('mssql');
+//Variable de conexion
+const config={
+    user:'felipepocketpark24',
+    password:'Bd2019*..',
+    server:'felipe-bd-pocketpark.database.windows.net',
+    database:'BaseDatos_pocketPark',
+    options: {
+        encrypt: true // Use this if you're on Windows Azure
+    }
+}
+var connection=mssql.connect(config,function(err,res){
+    if(err){
+        throw err;
+    }else{
+        console.log('conectado ala base de datos exitosamente.');
+        app.listen(port,()=>console.log('corriendo'));
+    }
+})
 
-// const http = require('http');
-// var express = require('express');
-// var app = express();
-
-
-// const server = http.createServer((request, response) => {
-//     response.writeHead(200, {"Content-Type": "text/plain"});
-//     response.end("];)!");
-// });
-
-// const port = process.env.PORT || 1337;
-// server.listen(port);
-
-// console.log("Server running at http://localhost:%d", port);
-
-
-// // //const {PORT}=require("../");
-// // const PORT = process.env.PORT ||  3000;
-
-
-
-// // function init (){
-// //   console.log ("inicializando ..");
-// //   response.end("Arrancando");
-// //   app.listen(PORT, () =>{
-// //     console.log ("esta activo ..");
-// //     response.end("]Go...");
-// //   });
-// // }
-
-// // init();
+// module.export es de express es para que otros modulos lo puedan ver
+module.exports=app;
